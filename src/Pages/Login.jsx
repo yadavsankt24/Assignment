@@ -47,8 +47,8 @@ const Login = () => {
       data: loginDetails,
     })
       .then((res) => {
+        console.log();
         dispatch(loginSuccessAction(res.data.token));
-        console.log("sanket");
       })
       .catch(() => {
         dispatch(loginFailureAction());

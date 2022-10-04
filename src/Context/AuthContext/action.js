@@ -12,11 +12,11 @@
 
 
 export function loginSuccessAction(data) {
-    return { type: "LOGIN_LOADING", payLoad: data };
+    return { type: "LOGIN_SUCCESS", payLoad: data };
   }
   
   export function loginLoadingAction() {
-    return { type: "LOGIN_REQUEST"};
+    return { type: "LOGIN_LOADING"};
   }
   
   export function loginFailureAction() {
