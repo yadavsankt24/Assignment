@@ -24,11 +24,8 @@ import axios from "axios";
 import { Navigate } from "react-router-dom";
 import Home from "./Home";
 
-// 0. axios used for making network requests;
-
-
-
-// 3. network request (POST)  made to api endpoint `https://reqres.in/api/login` with email and password details;
+//  axios used for making network requests;
+//  network request (POST)  made to api endpoint `https://reqres.in/api/login` with email and password details;
 
 const Login = () => {
   const { state, dispatch } = useContext(AuthContext);
